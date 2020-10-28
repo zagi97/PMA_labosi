@@ -31,7 +31,8 @@ public class SummaryActivity extends AppCompatActivity {
         sNazivPredmeta = oExtras.getString("nazivPredmeta");
         oNazivPredmeta = (TextView)findViewById(R.id.tvNazivPredmeta);
         oNazivPredmeta.setText(sNazivPredmeta);
-        
+
+        oBtnPovratak = (Button)findViewById(R.id.btnPovratak);
         oBtnPovratak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
