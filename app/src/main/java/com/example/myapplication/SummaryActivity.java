@@ -13,8 +13,26 @@ public class SummaryActivity extends AppCompatActivity {
     private String sImeStudenta;
     private TextView oImeStudenta;
 
+    private String sPrezimeStudenta;
+    private TextView oPrezimeStudenta;
+
+    private String sDatumRođenja;
+    private TextView oDatumRođenja;
+
+    private String sNazivProfesora;
+    private TextView oNazivProfesora;
+
     private String sNazivPredmeta;
     private TextView oNazivPredmeta;
+
+    private String sAkademskaGodina;
+    private TextView oAkademskaGodina;
+
+    private String sBrojPredavanja;
+    private TextView oBrojPredavanja;
+
+    private String sBrojLabosa;
+    private TextView oBrojLabosa;
 
     private Button oBtnPovratak;
 
@@ -28,9 +46,33 @@ public class SummaryActivity extends AppCompatActivity {
         oImeStudenta = (TextView)findViewById(R.id.tvImeStudenta);
         oImeStudenta.setText(sImeStudenta);
 
+        sPrezimeStudenta = oExtras.getString("prezimeStudenta");
+        oPrezimeStudenta = (TextView)findViewById(R.id.tvPrezimeStudenta);
+        oPrezimeStudenta.setText(sPrezimeStudenta);
+
+        sDatumRođenja = oExtras.getString("datumRođenja");
+        oDatumRođenja = (TextView)findViewById(R.id.tvDatumRođenja);
+        oDatumRođenja.setText(sDatumRođenja);
+
+        sNazivProfesora = oExtras.getString("nazivProfesora");
+        oNazivProfesora = (TextView)findViewById(R.id.tvNazivProfesora);
+        oNazivProfesora.setText(sNazivProfesora);
+
         sNazivPredmeta = oExtras.getString("nazivPredmeta");
         oNazivPredmeta = (TextView)findViewById(R.id.tvNazivPredmeta);
         oNazivPredmeta.setText(sNazivPredmeta);
+
+        sAkademskaGodina = oExtras.getString("akademskaGodina");
+        oAkademskaGodina = (TextView)findViewById(R.id.tvAkademskaGodina);
+        oAkademskaGodina.setText(sAkademskaGodina);
+
+        sBrojPredavanja = oExtras.getString("brojPredavanja");
+        oBrojPredavanja = (TextView)findViewById(R.id.tvBrojPredavanja);
+        oBrojPredavanja.setText(sBrojPredavanja);
+
+        sBrojLabosa = oExtras.getString("brojLabosa");
+        oBrojLabosa = (TextView)findViewById(R.id.tvBrojLabosa);
+        oBrojLabosa.setText(sBrojLabosa);
 
         oBtnPovratak = (Button)findViewById(R.id.btnPovratak);
         oBtnPovratak.setOnClickListener(new View.OnClickListener() {
