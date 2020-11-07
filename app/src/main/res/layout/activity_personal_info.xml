@@ -90,8 +90,9 @@
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:layout_gravity="right"
-            android:gravity="right"
-            android:layout_weight="1" />
+            android:gravity="left"
+            android:layout_weight="1"
+            android:hint="Unesite datum rođenja"/>
     </LinearLayout>
 
     <View
