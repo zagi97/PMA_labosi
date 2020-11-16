@@ -19,7 +19,7 @@
             android:id="@+id/tietNazivPredmeta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Upiši naziv predmeta" />
+            android:hint="@string/upiši_naziv_predmeta" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -35,7 +35,7 @@
             android:id="@+id/tietNazivProfesora"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Upis profesora" />
+            android:hint="@string/upis_profesora" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -51,7 +51,7 @@
             android:id="@+id/tietUpisAkademskeGodine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Upis akademske godine" />
+            android:hint="@string/upis_akademske_godine" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -67,7 +67,7 @@
             android:id="@+id/tietUpisSatiPredavanja"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Upis broja sati predavanja" />
+            android:hint="@string/upis_broja_sati_predavanja" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -83,7 +83,7 @@
             android:id="@+id/tietUpisSatiLabosa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Upis broja sati laboratorijskih vježbi" />
+            android:hint="@string/upis_broja_sati_laboratorijskih_vježbi" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Upis podataka"
+        android:text="@string/upis_podataka"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 

@@ -162,5 +162,5 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Povratak" />
+        android:text="@string/povratak" />
 </androidx.constraintlayout.widget.ConstraintLayout>

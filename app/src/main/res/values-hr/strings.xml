@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Moja aplikacija</string>
     <string name="ime">Ime</string>
     <string name="prezime">Prezime</string>
     <string name="datum_rodenja">Datum rođenja</string>
     <string name="unesite_datum_rodenja">Unesite datum rođenja</string>
-    <string name="dalje">Nastavi</string>
+    <string name="dalje">Upis podataka</string>
     <string name="upiši_naziv_predmeta">Upiši naziv predmeta</string>
     <string name="upis_profesora">Upiši profesora</string>
     <string name="upis_akademske_godine">Upis akademske godine</string>

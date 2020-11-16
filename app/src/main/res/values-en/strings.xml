@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ime">Name</string>
+    <string name="prezime">Surname</string>
+    <string name="datum_rodenja">Date of birth</string>
+    <string name="unesite_datum_rodenja">Please enter a date</string>
+    <string name="dalje">Continue</string>
+    <string name="upiši_naziv_predmeta">Subject</string>
+    <string name="upis_profesora">Professor</string>
+    <string name="upis_akademske_godine">Current year</string>
+    <string name="upis_broja_sati_predavanja">Number of lecture hours</string>
+    <string name="upis_broja_sati_laboratorijskih_vježbi">Number of LV hours</string>
+    <string name="upis_podataka">Data entry</string>
+    <string name="stvaranje_novog_studenta">Creating a new student</string>
+    <string name="povratak">To the main page</string>
+</resources>

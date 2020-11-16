@@ -39,7 +39,7 @@
             android:id="@+id/tietImeStudenta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ime" />
+            android:hint="@string/ime"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -57,7 +57,7 @@
             android:id="@+id/tietPrezimenaStudenta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Prezime" />
+            android:hint="@string/prezime" />
     </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
@@ -81,7 +81,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"
             android:layout_weight="0.4"
-            android:hint="Datum rođenja"/>
+            android:hint="@string/datum_rodenja"/>
 
         <EditText
             android:id="@+id/etUpisDatuma"
@@ -89,10 +89,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
+            android:inputType="date"
             android:layout_gravity="right"
             android:gravity="left"
             android:layout_weight="1"
-            android:hint="Unesite datum rođenja"/>
+            android:hint="@string/unesite_datum_rodenja"/>
     </LinearLayout>
 
     <View
@@ -114,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            android:text="Upiši" />
+            android:text="@string/dalje" />
     </LinearLayout>
 
 </LinearLayout>

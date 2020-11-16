@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Az én alkalmazásom</string>
+    <string name="ime">Név</string>
+    <string name="prezime">Vezetéknév</string>
+    <string name="datum_rodenja">Születési dátum</string>
+    <string name="unesite_datum_rodenja">Írja be a születési dátumát</string>
+    <string name="dalje">Adatbevitel</string>
+    <string name="upiši_naziv_predmeta">Írja be a tárgy nevét</string>
+    <string name="upis_profesora">Iratkozzon be egy professzort</string>
+    <string name="upis_akademske_godine">Tanévre történő beiratkozás</string>
+    <string name="upis_broja_sati_predavanja">Adja meg az előadások óraszámát</string>
+    <string name="upis_broja_sati_laboratorijskih_vježbi">A laboratóriumi gyakorlatok beiratkozási száma</string>
+    <string name="upis_podataka">Beiratkozási adatoka</string>
+    <string name="stvaranje_novog_studenta">Új tanuló létrehozása</string>
+    <string name="povratak">Visszatérés</string>
+</resources>

@@ -78,7 +78,7 @@ public class SummaryActivity extends AppCompatActivity {
         oBtnPovratak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent oPovratakNaPrvuStranicu = new Intent(getApplicationContext(), PersonalInfoActivity.class);
+                Intent oPovratakNaPrvuStranicu = new Intent(getApplicationContext(), PocetniZaslonActivity.class);
                 oPovratakNaPrvuStranicu.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(oPovratakNaPrvuStranicu);
 
