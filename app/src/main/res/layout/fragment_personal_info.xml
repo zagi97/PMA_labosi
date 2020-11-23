@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".PersonalInfoActivity" >
+
+    <ImageView
+        android:id="@+id/ivSlikaKorisnika"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilUpisImena"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0.8"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietImeStudenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ime"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilUpisPrezimena"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_weight="0.8"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietPrezimenaStudenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prezime" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vLine1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tvDatum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="0.4"
+            android:hint="@string/datum_rodenja"/>
+
+        <EditText
+            android:id="@+id/etUpisDatuma"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="date"
+            android:layout_gravity="right"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:hint="@string/unesite_datum_rodenja"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vLine2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/dalje" />
+    </LinearLayout>
+
+</LinearLayout>
