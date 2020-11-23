@@ -59,7 +59,7 @@ public class PocetniZaslonActivity extends AppCompatActivity  implements Adapter
         oBtnKreirajStudenta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent oOtvoriPersonalInfo = new Intent(getApplicationContext(), PersonalInfoActivity.class);
+                Intent oOtvoriPersonalInfo = new Intent(getApplicationContext(), CreateNewRecordActivity.class);
                 startActivity(oOtvoriPersonalInfo);
             }
         });
