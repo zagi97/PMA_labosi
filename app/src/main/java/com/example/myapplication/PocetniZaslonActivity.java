@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class PocetniZaslonActivity extends AppCompatActivity  implements AdapterView.OnItemSelectedListener
-{
+        {
 
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
@@ -33,7 +33,6 @@ public class PocetniZaslonActivity extends AppCompatActivity  implements Adapter
     String[] items_value = new String[]{"hr", "en", "hu"};
     int check = 0;
 
-    @SuppressWarnings("deprecation")
     private void setAppLocale (String localeCode)
     {
         Resources res = getResources();
